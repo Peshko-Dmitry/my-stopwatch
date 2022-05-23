@@ -16,6 +16,7 @@ function App() {
     setSeconds('00')
     setMinuts('00')
     setHours('00')
+    setResults('')
   }
   const result = () => {
     let res = {
