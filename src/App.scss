@@ -1,0 +1,237 @@
+$colorGray: #F2F2F2;
+$colorGrayText: #C4C4C4;
+
+.App{
+  background: $colorGray;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  .wrapper{
+    position: relative;
+    display: block;
+    left: calc(50% - 342px);
+    top: 100px;
+    width: 684px;
+    min-height: 420px;
+    background: $colorGray;
+    .title{
+      display: block;
+      margin: auto;
+      font-size: 64px;
+      line-height: 70px;
+      text-align: center;
+      width: 348px;
+      height: 74px;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.41), -3px -2px 5px 2px #FFFFFF;
+    }
+    .time{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      top: 50px;
+      width: 683px;
+      height: 300px;
+      text-align: center;
+      &__hours{
+        display: block;
+        width: 158px;
+        height: 189px;
+        margin: 0 auto;
+        &__title{
+          display: block;
+          width: 158px;
+          height: 22px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          text-transform: uppercase;
+          color: $colorGrayText;
+        }
+        &__block{
+          display: block;
+          margin-top: 12px;
+          width: 155px;
+          height: 155px;
+          border-radius: 50%;
+          background: #F2F2F2;
+          box-shadow: -3px -3px 20px 1px rgba(255, 255, 255, 0.65), 
+                inset -3px -5px 1px 2px rgba(255, 252, 252, 0.78), 
+                inset 3px 3px 15px -1px rgba(0, 0, 0, 0.31);
+              .hours__value{
+                width: 111px;
+                height: 111px;
+                font-weight: 400;
+                font-size: 96px;
+                line-height: 140px;
+
+              }
+          }
+      }
+      &__minuts{
+        display: block;
+        width: 158px;
+        height: 189px;
+        margin: 0 auto;
+        &__title{
+          display: block;
+          width: 158px;
+          height: 22px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          text-transform: uppercase;
+          color: $colorGrayText;
+        }
+        &__block{
+          display: block;
+          margin-top: 12px;
+          width: 155px;
+          height: 155px;
+          border-radius: 50%;
+          background: #F2F2F2;
+          box-shadow: -3px -3px 20px 1px rgba(255, 255, 255, 0.65), 
+                inset -3px -5px 1px 2px rgba(255, 252, 252, 0.78), 
+                inset 3px 3px 15px -1px rgba(0, 0, 0, 0.31);
+                .minuts__value{
+                  width: 111px;
+                  height: 111px;
+                  font-weight: 400;
+                  font-size: 96px;
+                  line-height: 140px;
+  
+                }
+          }
+      }
+      &__seconds{
+        display: block;
+        width: 158px;
+        height: 189px;
+        margin: 0 auto;
+        &__title{
+          display: block;
+          width: 158px;
+          height: 22px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          text-transform: uppercase;
+          color: $colorGrayText;
+        }
+        &__block{
+          display: block;
+          margin-top: 12px;
+          width: 155px;
+          height: 155px;
+          border-radius: 50%;
+          background: #F2F2F2;
+          box-shadow: -3px -3px 20px 1px rgba(255, 255, 255, 0.65), 
+                inset -3px -5px 1px 2px rgba(255, 252, 252, 0.78), 
+                inset 3px 3px 15px -1px rgba(0, 0, 0, 0.31);
+                .seconds__value{
+                  width: 111px;
+                  height: 111px;
+                  font-weight: 400;
+                  font-size: 96px;
+                  line-height: 140px;
+  
+                }
+          }
+      }
+      &__milliseconds{
+        display: block;
+        width: 158px;
+        height: 189px;
+        margin: 0 auto;
+        &__title{
+          display: block;
+          width: 158px;
+          height: 22px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          text-transform: uppercase;
+          color: $colorGrayText;
+        }
+        &__block{
+          display: block;
+          margin-top: 12px;
+          width: 155px;
+          height: 155px;
+          border-radius: 50%;
+          background: #F2F2F2;
+          box-shadow: -3px -3px 20px 1px rgba(255, 255, 255, 0.65), 
+                inset -3px -5px 1px 2px rgba(255, 252, 252, 0.78), 
+                inset 3px 3px 15px -1px rgba(0, 0, 0, 0.31);
+                .milliseconds__value{
+                  width: 111px;
+                  height: 111px;
+                  font-weight: 400;
+                  font-size: 96px;
+                  line-height: 140px;
+  
+                }
+          }
+      }
+    }
+    
+  }
+  .nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: calc(50% - 342px);
+    top: 40px;
+    
+    width: 684px;
+    height: 50px;
+    
+    .btn{
+      width: 155px;
+      height: 22px;
+      margin: auto;
+      border: none;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      background: $colorGray;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), -3px -2px 5px 2px #FFFFFF;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .btn:active{
+      box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.3), 
+      inset -3px -2px 5px 1px #FFFFFF;
+    }
+    .start{
+      background: #99E9BE;
+    }
+    .stop{
+      background: #E389C5;
+      box-shadow: inset 3px 3px 5px #B15291,
+      inset -1px -1px 6px 2px rgba(255, 255, 255, 0.5);
+    }
+  }
+  .results{
+    display: block;
+    position: relative;
+    top: 55px;
+    left: calc(50% - 200px);
+    width: 400px;
+    height: 370px;
+    overflow-y: scroll;
+    span{
+      display: block;
+      font-size: 28px;
+      width: 370px;
+      padding: 5px ;
+      box-shadow: -3px -3px 20px 1px rgba(255, 255, 255, 0.65), 
+      inset -3px -5px 1px 2px rgba(255, 252, 252, 0.78), 
+      inset 3px 3px 15px -1px rgba(0, 0, 0, 0.31);
+
+    }
+
+  }
+  
+
+}
+
