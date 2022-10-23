@@ -68,7 +68,7 @@ useEffect(()=>{
   return (
     <div className="App">
       <div className="wrapper">
-        <span className='title'>Timer</span>
+        <span className='title'>Stopwatch</span>
         <div className="time">
           <div className="time__hours">
             <span className='time__hours__title'>hours</span>
